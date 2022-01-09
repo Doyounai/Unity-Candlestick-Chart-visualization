@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1374742618696981814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1374742618696981815}
+  - component: {fileID: 1374742618696981812}
+  - component: {fileID: 5816659227106229432}
+  m_Layer: 5
+  m_Name: maline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1374742618696981815
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374742618696981814}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1306, y: 852}
+  m_Pivot: {x: 0, y: 0}
+--- !u!222 &1374742618696981812
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374742618696981814}
+  m_CullTransparentMesh: 1
+--- !u!114 &5816659227106229432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374742618696981814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b70b3e770f635b43940ec643aa81bf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.5961714, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  _manager: {fileID: 0}
+  Data: {fileID: 11400000, guid: fcacca0eb2c6ab04db7ba0d8c5fb69f0, type: 2}
+  timeFrame: 11
+  movingAverage: 15950000dd9800001e9e000014a3000032a7000030ab00001aaf000007b300009ab7000023bc000094bf0000ffc200007ac70000b7c900002fca00001bcb000087ca0000f5c90000e4c8000066c60000acc5000001c3000008c10000d8bd0000f8bb000000bc000088bc00005dbe000060c10000ddc400005cc9000018cc0000aad00000c7d3000062d600002fd90000b8dc000015df00003fe100007ce2000006e30000dce10000f0e00000eedd00003cdb0000f6da0000aada0000a1d9000097d90000
+  thickness: 10
+  testColor: {r: 0, g: 0, b: 0, a: 1}
